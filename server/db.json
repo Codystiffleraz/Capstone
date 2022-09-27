@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "name": "Churro",
+        "picture": "../client/pictures/churro.jpg",
+        "description": "fkjhdhsakhfjkldhs jklafd ajklfd ljksa",
+        "likes": 100
+    },
+    {
+        "id": 2,
+        "name": "Banana Dog",
+        "picture": "fhdksdsf.jpg",
+        "description": "fkjhdhsakhfjkldhs jklafd ajklfd ljksa",
+        "likes": 0
+    },
+    {
+        "id": 3,
+        "name": "Big Dog",
+        "picture": "fhdkfdsasa.jpg",
+        "description": "fkjhdhsakhfjkldhs jklafd ajklfd ljksa",
+        "likes": 0
+    }
+]
+
