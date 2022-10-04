@@ -21,14 +21,16 @@ const createDogCard =(dog) => {
         <div class="box">
         <img class="dogPicture" src= ${dog.picture} />
         <div class ="content">
-        <p>${dog.name}</p>
+        <h2>${dog.name}</h2>
         <p>${dog.description}</p>
+        <div class="button">
         <section>
-        <button onclick="updateDog(${dog.id}, 'dislike')">Dislike</button>
-        Popularity: ${dog.likes}
-        <button onclick="updateDog(${dog.id}, 'like')">Like</button>
+        <button class="but" onclick="updateDog(${dog.id}, 'dislike')">Dislike</button>
+        Likes: ${dog.likes}
+        <button class="but" onclick="updateDog(${dog.id}, 'like')">Like</button>
         </section>
-        <button onclick="deleteCats(${dog.id})">delete</button>
+        <button onclick="deleteCats(${dog.id})" class="delete">Delete</button>
+        </div>
         </div>
         </div>
     `
