@@ -18,7 +18,9 @@ const createDogCard =(dog) => {
     dogCard.classList.add('dog-card')
     
     dogCard.innerHTML =`
-        <img src= ${dog.picture} />
+        <div class="box">
+        <img class="dogPicture" src= ${dog.picture} />
+        <div class ="content">
         <p>${dog.name}</p>
         <p>${dog.description}</p>
         <section>
@@ -27,6 +29,8 @@ const createDogCard =(dog) => {
         <button onclick="updateDog(${dog.id}, 'like')">Like</button>
         </section>
         <button onclick="deleteCats(${dog.id})">delete</button>
+        </div>
+        </div>
     `
     showDogs.appendChild(dogCard)
 }

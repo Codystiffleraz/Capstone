@@ -2,21 +2,21 @@
     {
         "id": 1,
         "name": "Churro",
-        "picture": "../client/pictures/churro.jpg",
+        "picture": "../client/pictures/thumb.jpg",
         "description": "fkjhdhsakhfjkldhs jklafd ajklfd ljksa",
         "likes": 100
     },
     {
         "id": 2,
-        "name": "Banana Dog",
-        "picture": "fhdksdsf.jpg",
-        "description": "fkjhdhsakhfjkldhs jklafd ajklfd ljksa",
+        "name": "Sad Dog",
+        "picture": "../client/pictures/Sad-dog.jpg",
+        "description": "this is a very sad dog",
         "likes": 0
     },
     {
         "id": 3,
-        "name": "Big Dog",
-        "picture": "fhdkfdsasa.jpg",
+        "name": "Dude",
+        "picture": "../client/pictures/Dude.jpg",
         "description": "fkjhdhsakhfjkldhs jklafd ajklfd ljksa",
         "likes": 0
     }
